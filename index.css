@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+  a,h6{
+    font-family: caveat;
+    font-size:x-large;
+    text-decoration: none;
+    color:aqua;
+  }
+  header{
+    width: 100%;
+   height: max-content;
+    box-shadow: 0px 3px 8px #17174D;
+   
+    align-items: center;
+    background-color:#140920;
+    }  /* body {
+    
+    /* background-color:#590BEB; */
+    /* background-color:#0D0431 ; */
+   
+   
+    .row{
+        margin: 0;
+      padding: 5px;
+    }
+    body{
+        background-color: #140920;
+    }
+    .card{
+        box-shadow: 0px 3px 8px lime ;
+
+    }
+    
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      
+      
+        transition: .5s;
+        transform: scale(.9);
+        z-index: -1;
+      }
+      .card:hover::before {
+        transform: scale(1.0);
+        box-shadow: 0 0 8px #ff1010;
+      }
+      
+    .card:hover {
+       
+        box-shadow: 0 0 2px #ab10ff;
+        text-shadow: 0 0 5px #ffee10;
+      }
+      .card:hover{
+        
+transform: scale(1.05);
+transition-delay: 1.5;
+          }
+      
